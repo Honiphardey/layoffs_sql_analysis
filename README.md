@@ -2,14 +2,14 @@
 Data cleaning, EDA, and visualization of global layoffs between 2020 to 2023 using SQL and Excel
 
 ## Project Overview
-This project analyzes a layoffs dataset using **SQL**, covering the full workflow from **data cleaning** to **exploratory data analysis (EDA)**.
+This project analyzes a layoffs dataset using **SQL**, covering the full workflow from **data cleaning** to **exploratory data analysis (EDA)**, with **Excel** used for aggregation and visual preparation.
 
 The objective was to identify:
 - Layoff trends over time  
 - Industries, companies, and regions most affected  
 - Patterns across funding stages  
 
-All analysis was performed using SQL queries, including aggregations, ranking, and window functions.
+All analysis was performed using SQL queries, including aggregations, ranking, and window functions, while Excel was used to support aggregation and visualization.
 
 ---
 
@@ -69,18 +69,21 @@ data/
   layoffs_cleaned.csv
 
 visuals/
-  (visualizations to be added)
+  charts and images
+
+  excel/
+  layoffs_excel.xlsx
 
 - **sql/**: Contains all SQL queries used for data cleaning, transformation, and exploratory data analysis (EDA).
 - **data/**: Contains the cleaned dataset used for analysis.
-- **visuals/**: Reserved for charts and dashboards derived from the analysis.
+- **excel/**: Excel workbook used for pivot tables and visualization preparation.
+- **visuals/**: Static visualization derived from the analysis.
 
 
 ---
 
 ## Next Steps
 
-- Create visualizations to highlight yearly layoff trends and top contributing entities.
 - Build an interactive dashboard to explore layoffs by company, industry, country, and funding stage.
 - Extend analysis to compare funding levels against layoff severity.
 - Perform deeper time-series analysis on rolling layoffs across months and years.
@@ -91,4 +94,5 @@ visuals/
 
 - Project inspired by Alex the analyst.
 - SQL used for data cleaning and analysis (window functions, aggregations, ranking).
+- Excel used for aggregation and visualization preparation.
 - AI tools were used to assist with query validation, documentation clarity, and insight refinement.
