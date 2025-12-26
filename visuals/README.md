@@ -8,7 +8,6 @@ This folder contains visual representations derived from the SQL and Excel analy
 - Top industries by total layoffs
 - Top countries by total layoffs
 - Layoffs distribution by funding stage
-- Top locations by total layoffs
 
 ## Visualization Goals
 - Present insights in a clear and intuitive way
